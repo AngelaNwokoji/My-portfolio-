@@ -8,47 +8,53 @@
 </head>
 
 <body>
-    <section id="home">
-    <div class="container">
-        <div class="heading">
-            <nav>
-                <a href="#home">Home</a>
-                <a href="About.html">About</a>
-                <a href="#projects">Projects</a>
-            </nav>
-            <button type="button" href='Contact.html'>Contact me</button>
-        </div>
-
-        <div class="hero-section">
-            <div class="write-up">
-                <h1>I'm Angela</h1>
-                <h3>A programmer</h3>
+    <body>
+        <!-- HOME SECTION-->
+        <section id="home">
+        <div class="container">
+            <div class="heading">
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                </nav>
+             
+             <button onclick="document.location='Contact.html.asp'">Contact Me</button>
             </div>
-            <div class="image">
-                <img src="pictures/fgyu.jpg" alt="Angela's image">
+    
+            <div class="hero-section">
+                <div class="write-up">
+                    <h1>I'm Angela</h1>
+                    <h3>A programmer</h3>
+                </div>
+                <div class="image">
+                    <img src="pictures/fgyu.jpg" alt="Angela's image">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="about"> 
-    <h2>About Me</h2>
-    <div class="about-me">
-        <div class="writeup">
-           
-            <p>I am a front end developer with 3 years experience</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit iste hic omnis autem natus molestias, quod sint at nostrum odio. Architecto laborum blanditiis quisquam neque omnis deserunt nobis totam?</p>
+    <!-- ABOUT SECTION -->
+    <section id="about"> 
+        <h2>About Me</h2>
+        <div class="about-me">
+            <div class="writeup">
+               
+                <p>I am a front end developer with 3 years experience</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit iste hic omnis autem natus molestias, quod sint at nostrum odio. Architecto laborum blanditiis quisquam neque omnis deserunt nobis totam?</p>
+            </div>
+            <img src="pictures/programmer.jpg" alt="programmer">
         </div>
-        <img src="pictures/programmer.jpg" alt="programmer">
-    </div>
+    
+    </section>
 
-</section>
-
-<section id="projects">
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
     <div class="projects">
         <div class="title">
            <h2>Projects</h2> 
         </div>
+
         <div class="landing">
             <img src="pictures/Capture4.PNG" alt="">
 
@@ -74,9 +80,9 @@
         </div>
         </div>
        
-        
 </section>
 
+<!-- FOOTER -->
 <section id="footer">
     <div class="footer">
     <div class="socials">
@@ -89,5 +95,10 @@
     </div>
 </div>
 </section>
+
+
+
+<script src="index.js"></script>
 </body>
+
 </html>
