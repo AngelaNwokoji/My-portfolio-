@@ -138,6 +138,37 @@ h2{
         margin-bottom: 20px;
     } 
 
+/* CONTACT PAGE */
+.form{
+    width: 700px;
+    height: 600px;
+    background-color: whitesmoke;
+    color: green;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+
+}
+form div{
+    margin: 20px;
+   text-align: center;
+}
+input{
+   
+
+    height: 40px;
+    width: 60%;
+    margin-left: 10px;
+}
+textarea{
+   width: 70%;
+}
+form button{
+    width: 90%;
+    color: whitesmoke;
+    background: green;
+}
+
     /* SMALL SCREENS */
     @media screen and (max-width: 600px) and (min-width: 300px) {
         body{
@@ -215,6 +246,25 @@ h2{
             font-size: 18px;       
         }
        
+        /* CONTACT ME */
+        .form{
+            width: 350px;
+            height: 600px;
+            margin-top: 30px;
+        }
+    
+        input{
+            height: 30px;
+            width: 80%;
+        }
+        textarea{
+           width: 100%;
+           margin-top: 20px;
+        }
+        form button{
+            width: 90%;
+            padding: 8px;
+        }
       }
     /* LARGE SCREENS */
       @media screen and (min-width: 600px) and (max-width:1000px)  {
@@ -243,4 +293,25 @@ h2{
        margin-left: 50px;
         
         }
+
+        /* CONTACT ME */
+        .form{
+            width: 70%;
+            height: 600px;
+            margin-top: 30px;
+        }
+    
+        input{
+            height: 30px;
+            width: 80%;
+        }
+        textarea{
+           width: 100%;
+           margin-top: 20px;
+        }
+        form button{
+            width: 90%;
+            padding: 8px;
+        }
       }
+      
